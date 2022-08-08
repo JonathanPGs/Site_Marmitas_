@@ -13,17 +13,11 @@ require_once "Dados.php";
   <title>Quentinhas Dona Rita</title>
   <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
 </head>
-
-
 <body>
-
   <header>
-
     <img class="img" src="imagens/LOGO NAV.png" alt="logo html 5">
-
   </header>
   <nav>
-
     <a class="logo"></a>
     <ul class="nav-list">
 
@@ -35,7 +29,7 @@ require_once "Dados.php";
   </nav>
   </header>
   <main>
-    
+
   </main>
   <footer> --------------------------------------------- </footer>
 </body>

@@ -7,25 +7,50 @@
 
 
   body {
-    background-color: #Ffb900;
+    background-image: linear-gradient(180deg, #ffff7c 0, #ffff6f 12.5%, #fff565 25%, #ffda5c 37.5%, #f2bd53 50%, #dda14c 62.5%, #c98a46 75%, #b77642 87.5%, #a8663f 100%);
 
   }
 
   header {
     background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   header img {}
 
   nav {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: Arial, verdana, Helvetica, sans-serif;
-    background: linear-gradient(to bottom left, #ff6600 -10%, #ff6600 100%);
+    background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
     font-size: 20px;
     height: 5vh;
     margin: auto;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1992);
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+
+
+
+  }
+
+  nav a {
+    color: white;
+    font-weight: bolder;
+    transition-duration: 1s;
+  }
+
+  nav a:hover {
+    background-color: #ff6600;
+    color: yellow;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+
 
   }
 
@@ -40,7 +65,8 @@
     margin-left: 32px;
     text-decoration: none;
     font-weight: bold;
-    color: #Ffb900;
+    color: whitesmoke;
+    padding: 10px;
 
   }
 
@@ -59,10 +85,5 @@
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-
-  main h1 {
-    background-color: wheat;
-
   }
 </style>
