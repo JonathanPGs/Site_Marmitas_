@@ -18,6 +18,7 @@ require_once "Dados.php";
 <body>
 
   <header>
+
     <img class="img" src="imagens/LOGO NAV.png" alt="logo html 5">
 
   </header>
@@ -34,10 +35,7 @@ require_once "Dados.php";
   </nav>
   </header>
   <main>
-    <article>
-
-
-    </article>
+    
   </main>
   <footer> --------------------------------------------- </footer>
 </body>

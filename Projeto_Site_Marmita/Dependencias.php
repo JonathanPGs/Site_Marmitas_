@@ -1,14 +1,9 @@
 <style>
   * {
-    padding: 0;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0px;
   }
 
-  :root {
-    --cor0: #Ffb900;
-    --cor1: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
-
-  }
 
 
   body {
@@ -20,6 +15,8 @@
     background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
   }
 
+  header img {}
+
   nav {
     display: flex;
     justify-content: space-around;
@@ -28,12 +25,13 @@
     background: linear-gradient(to bottom left, #ff6600 -10%, #ff6600 100%);
     font-size: 20px;
     height: 5vh;
+    margin: auto;
 
   }
 
   .nav-list {
     list-style: none;
-    display: flex;
+
 
   }
 
@@ -48,10 +46,19 @@
 
   .img {
     display: flex;
+    margin: auto;
+
   }
 
   main {
-    margin: 10 50;
+    background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
+    min-width: 300px;
+    max-width: 1350px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   main h1 {
