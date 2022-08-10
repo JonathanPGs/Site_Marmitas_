@@ -12,7 +12,7 @@
   }
 
   header {
-    background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
+    background-image: linear-gradient(45deg, orange, red);
     padding-top: 20px;
     padding-bottom: 40px;
   }
@@ -85,5 +85,30 @@
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+
+
+
+  .titulo1 {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    padding-inline: 5px;
+
+  }
+
+  section {
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+   
+  }
+
+  .flex {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
   }
 </style>
