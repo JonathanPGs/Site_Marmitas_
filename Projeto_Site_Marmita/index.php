@@ -29,105 +29,74 @@
             </ul>
           </nav>
           </header>
-          <main class="flex">
-            <h1 class="titulo1">MARMITAS </h1>
-            </p>
-            <section class="MPF">
-              <h2> MARMITA - PRATO FEITO</h2>
+          <h1> MARMITAS </h1>
+          <article class="flex">
 
-              <div>
-                <img src="marmita-pf/file-batata 200px.png" alt="Marmita Feita File Com Batata frita">
-                <p>legenda</p>
-                <button>#</button>
+            <div id="Principal">
+
+              <div id=Marmitas>
+
+                <img src="Marmita/Marmita-1.jpg" alt="Marmita 1" class="IP">
+                <h3><?php echo $marmitas[0]["NOME"]; ?></h3>
+                <hr>
+                <br>
+                <h4>TAMANHO: <?php echo $marmitas[0]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[0]["PRECO"]; ?></h4>
+                <Button>SAIBA MAIS!</Button>
+
               </div>
 
-              <div>
-                <img src="marmita-pf/file-ovo-batata 200px.png" alt="Marmita Feita File Com Batata frita e Ovo">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-2.jpg" alt="Marmita 2">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-pf/Frango-grelhado 200px.jpg" alt=" Marmita Feita Frango Grelhado">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-3.jpg" alt="Marmita 3">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-pf/frango-torremos 200px.png" alt="Marmita feita Frango com torremos">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-4.jpg" alt="Marmita 4">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-pf/peixe-batata 200px.png" alt="Marmit Feita peixe  com batata">
-                <p>legenda</p>
-                <button>#</button>
-              </div>
-            </section>
-
-            <section class="MMS">
-              <h2>MARMITA - MASSAS</h2>
-              <div>
-                <img src="marmita-ms/macarrão almondega 200px.jpg" alt=" marcarrão com almondega">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-5.jpg" alt="Marmita 5">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-ms/prato maccarão 200px.jpg" alt="macarrão">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-6.png" alt="Marmita 6">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-ms/panquecas 200px.jpg" alt="panquecas">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-7.png" alt="Marmita 7">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-ms/parmegiana 200px.png" alt="file parmegiana">
-                <p>legenda</p>
-                <button>#</button>
-              </div>
-            </section>
-
-            <section>
-              <h2>MARMITAS - FIT</h2>
-              <div>
-                <img src="marmita-fit/fit1 200px.jpg" alt="marmita fit 1">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-8.jpg" alt="Marmita 8">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
 
-              <div>
-                <img src="marmita-fit/fit2 200px.png" alt="marmita fit 2">
-                <p>legenda</p>
-                <button>#</button>
+              <div id=Marmitas>
+                <img src="Marmita/Marmita-9.png" alt="Marmita 9">
+                <p>L E G E N D A</p>
+                <Button>SAIBA MAIS!</Button>
               </div>
+            </div>
 
-              <div><img src="marmita-fit/fit3 200px.jpg" alt="marmita fit 3">
-                <p>legenda</p>
-                <button>#</button>
-              </div>
+          </article>
 
-              <div>
-                <img src="marmita-fit/fit4 200px.jpg" alt="marmita fit 4">
-                <p>legenda</p>
-                <button>#</button>
-              </div>
-
-              <div>
-                <img src="marmita-fit/fit5 200px.jpg" alt="marmita fit 5">
-                <p>legenda</p>
-                <button>#</button>
-              </div>
-
-
-            </section>
-
-          </main>
           <footer>
             <h2>Quer saber mais?</h2>
             <p>só entrar em contato atraves do telefone</p>

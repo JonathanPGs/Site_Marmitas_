@@ -2,6 +2,7 @@
   * {
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
   }
 
 
@@ -17,7 +18,7 @@
     padding-bottom: 40px;
   }
 
-  header img {}
+
 
   nav {
 
@@ -30,10 +31,6 @@
     height: 5vh;
     margin: auto;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1992);
-    padding-bottom: 5px;
-    margin-bottom: 2px;
-
-
 
   }
 
@@ -49,16 +46,12 @@
     font-weight: bold;
     border-radius: 5px;
     text-transform: uppercase;
-
-
-
   }
 
-  .nav-list {
-    list-style: none;
 
 
-  }
+
+
 
   .nav-list a {
     letter-spacing: 10px;
@@ -76,7 +69,7 @@
 
   }
 
-  main {
+  article {
     background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
     min-width: 300px;
     max-width: 1350px;
@@ -87,28 +80,68 @@
     border-bottom-right-radius: 10px;
   }
 
-
-
-  .titulo1 {
+  h1 {
     text-align: center;
-    text-decoration: none;
-    font-weight: bold;
+    color: black;
     font-size: 50px;
-    padding-inline: 5px;
-
-  }
-
-  section {
-    padding: 10px;
-    padding-top: 10px;
-    margin-top: 50px;
-   
   }
 
   .flex {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 10px;
+    margin: 0 100px;
+  }
+
+  #Principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 20px;
+    column-gap: 300px;
+
+  }
+
+  #Marmitas {
+
+    background-image: linear-gradient(50deg, orange, red);
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .ip {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+
+  }
+
+  button {
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 12px;
+    background-color: #e7e7e7;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-inline-start: 100px;
+
+  }
+
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    font-weight: bold;
+
   }
 </style>
