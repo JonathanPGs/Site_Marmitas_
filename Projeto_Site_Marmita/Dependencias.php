@@ -192,17 +192,19 @@
   }
 
   form {
-    border: 1px solid #eee;
+
     padding: 0 10px;
     text-decoration: none;
     background-image: linear-gradient(90deg, orange, red);
     align-items: center;
     justify-content: space-between;
+    color: black;
+    padding-bottom: 5px;
+    border: solid 1px;
+    box-shadow: 10px 10px 10px 5px black;
   }
 
-  input {
-    color: black;
-  }
+
 
   h5 {
     font-size: 15px;

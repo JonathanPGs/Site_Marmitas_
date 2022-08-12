@@ -29,11 +29,11 @@ require_once "Dados.php";
     </ul>
   </nav>
   </header>
-  <h1> P A N Q U E C A </h1>
+  <h1> MACARÃO COM ALMODEGA </h1>
   <article class="flex">
-    <table >
+    <table>
       <tr>
-        <img src="Marmita/Grande4.jpg" alt="" class="config">
+        <img src="Marmita/Grande5.jpg" alt="" class="config">
 
       <tr>
         <th>ACOMPANHAMENTO</th>
@@ -42,23 +42,30 @@ require_once "Dados.php";
         <th>TAMANHO G</th>
       </tr>
       <tr>
-        <td><?php echo $Panquecas[0]["IGREDIENTE"]; ?></td>
-        <td><?php echo $Panquecas[0]["TAM-P"]; ?></td>
-        <td><?php echo $Panquecas[0]["TAM-M"]; ?></td>
-        <td><?php echo $Panquecas[0]["TAM-G"]; ?></td>
+        <td><?php echo $Macarrao[0]["IGREDIENTE"]; ?></td>
+        <td><?php echo $Macarrao[0]["TAM-P"]; ?></td>
+        <td><?php echo $Macarrao[0]["TAM-M"]; ?></td>
+        <td><?php echo $Macarrao[0]["TAM-G"]; ?></td>
       </tr>
       <tr>
-        <td><?php echo $Panquecas[1]["IGREDIENTE"]; ?></td>
-        <td><?php echo $Panquecas[1]["TAM-P"]; ?></td>
-        <td><?php echo $Panquecas[1]["TAM-M"]; ?></td>
-        <td><?php echo $Panquecas[1]["TAM-G"]; ?></td>
+        <td><?php echo $Macarrao[1]["IGREDIENTE"]; ?></td>
+        <td><?php echo $Macarrao[1]["TAM-P"]; ?></td>
+        <td><?php echo $Macarrao[1]["TAM-M"]; ?></td>
+        <td><?php echo $Macarrao[1]["TAM-G"]; ?></td>
       </tr>
       <tr>
-        <td><?php echo $Panquecas[2]["IGREDIENTE"]; ?></td>
-        <td><?php echo $Panquecas[2]["TAM-P"]; ?></td>
-        <td><?php echo $Panquecas[2]["TAM-M"]; ?></td>
-        <td><?php echo $Panquecas[2]["TAM-G"]; ?></td>
+        <td><?php echo $Macarrao[2]["IGREDIENTE"]; ?></td>
+        <td><?php echo $Macarrao[2]["TAM-P"]; ?></td>
+        <td><?php echo $Macarrao[2]["TAM-M"]; ?></td>
+        <td><?php echo $Macarrao[2]["TAM-G"]; ?></td>
       </tr>
+      <tr>
+        <td><?php echo $Macarrao[3]["IGREDIENTE"]; ?></td>
+        <td><?php echo $Macarrao[3]["TAM-P"]; ?></td>
+        <td><?php echo $Macarrao[3]["TAM-M"]; ?></td>
+        <td><?php echo $Macarrao[3]["TAM-G"]; ?></td>
+      </tr>
+
 
       </tr>
     </table>
@@ -72,7 +79,7 @@ require_once "Dados.php";
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="lname">Endereço:</label><br>
         <input type="text" id="lname" name="lname" value=""><br>
-        <label for="lname">Bairro:</label><br><br>
+        <label for="lname">Bairro:</label><br>
         <input type="text" id="lname" name="lname" value=""><br>
         <label for="lname">Nº:</label><br>
         <input type="text" id="lname" name="lname" value=""><br>
@@ -85,9 +92,9 @@ require_once "Dados.php";
 
         <h5>Forma de Pagamento</h5>
         <input type="checkbox" id="DINHEIRO" name="fav_language" value="DINHEIRO">
-        <label for="dinheiro">DINHEIRO</label><br>
+        <label for="html">DINHEIRO</label><br>
         <input type="checkbox" id="CARTAO" name="fav_language" value="CARTAO">
-        <label for="cartao">CARTAO</label><br>
+        <label for="css">CARTAO</label><br>
         <br>
         <h5>TAMANHO DA QUENTINHA</h5>
         <input type="checkbox" id="TAM" name="fav_language" value="TAMA-P">

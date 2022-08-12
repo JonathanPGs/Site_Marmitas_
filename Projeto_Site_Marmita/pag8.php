@@ -29,11 +29,11 @@ require_once "Dados.php";
     </ul>
   </nav>
   </header>
-  <h1> P A N Q U E C A </h1>
+  <h1> FRANGO GRELHADO </h1>
   <article class="flex">
-    <table >
+    <table>
       <tr>
-        <img src="Marmita/Grande4.jpg" alt="" class="config">
+        <img src="Marmita/Grande8.jpg" alt="" class="config">
 
       <tr>
         <th>ACOMPANHAMENTO</th>
@@ -42,22 +42,34 @@ require_once "Dados.php";
         <th>TAMANHO G</th>
       </tr>
       <tr>
-        <td><?php echo $Panquecas[0]["IGREDIENTE"]; ?></td>
-        <td><?php echo $Panquecas[0]["TAM-P"]; ?></td>
-        <td><?php echo $Panquecas[0]["TAM-M"]; ?></td>
-        <td><?php echo $Panquecas[0]["TAM-G"]; ?></td>
+        <td><?php echo $FrangoGrelhado[0]["IGREDIENTE"]; ?></td>
+        <td><?php echo $FrangoGrelhado[0]["TAM-P"]; ?></td>
+        <td><?php echo $FrangoGrelhado[0]["TAM-M"]; ?></td>
+        <td><?php echo $FrangoGrelhado[0]["TAM-G"]; ?></td>
       </tr>
       <tr>
-        <td><?php echo $Panquecas[1]["IGREDIENTE"]; ?></td>
-        <td><?php echo $Panquecas[1]["TAM-P"]; ?></td>
-        <td><?php echo $Panquecas[1]["TAM-M"]; ?></td>
-        <td><?php echo $Panquecas[1]["TAM-G"]; ?></td>
+        <td><?php echo $FrangoGrelhado[1]["IGREDIENTE"]; ?></td>
+        <td><?php echo $FrangoGrelhado[1]["TAM-P"]; ?></td>
+        <td><?php echo $FrangoGrelhado[1]["TAM-M"]; ?></td>
+        <td><?php echo $FrangoGrelhado[1]["TAM-G"]; ?></td>
       </tr>
       <tr>
-        <td><?php echo $Panquecas[2]["IGREDIENTE"]; ?></td>
-        <td><?php echo $Panquecas[2]["TAM-P"]; ?></td>
-        <td><?php echo $Panquecas[2]["TAM-M"]; ?></td>
-        <td><?php echo $Panquecas[2]["TAM-G"]; ?></td>
+        <td><?php echo $FrangoGrelhado[2]["IGREDIENTE"]; ?></td>
+        <td><?php echo $FrangoGrelhado[2]["TAM-P"]; ?></td>
+        <td><?php echo $FrangoGrelhado[2]["TAM-M"]; ?></td>
+        <td><?php echo $FrangoGrelhado[2]["TAM-G"]; ?></td>
+      </tr>
+      <tr>
+        <td><?php echo $FrangoGrelhado[3]["IGREDIENTE"]; ?></td>
+        <td><?php echo $FrangoGrelhado[3]["TAM-P"]; ?></td>
+        <td><?php echo $FrangoGrelhado[3]["TAM-M"]; ?></td>
+        <td><?php echo $FrangoGrelhado[3]["TAM-G"]; ?></td>
+      </tr>
+      <tr>
+        <td><?php echo $FrangoGrelhado[4]["IGREDIENTE"]; ?></td>
+        <td><?php echo $FrangoGrelhado[4]["TAM-P"]; ?></td>
+        <td><?php echo $FrangoGrelhado[4]["TAM-M"]; ?></td>
+        <td><?php echo $FrangoGrelhado[4]["TAM-G"]; ?></td>
       </tr>
 
       </tr>
