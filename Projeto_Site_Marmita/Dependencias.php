@@ -5,11 +5,8 @@
     text-decoration: none;
   }
 
-
-
   body {
     background-image: linear-gradient(180deg, #ffff7c 0, #ffff6f 12.5%, #fff565 25%, #ffda5c 37.5%, #f2bd53 50%, #dda14c 62.5%, #c98a46 75%, #b77642 87.5%, #a8663f 100%);
-
   }
 
   header {
@@ -18,10 +15,7 @@
     padding-bottom: 40px;
   }
 
-
-
   nav {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +25,6 @@
     height: 5vh;
     margin: auto;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1992);
-
   }
 
   nav a {
@@ -48,11 +41,6 @@
     text-transform: uppercase;
   }
 
-
-
-
-
-
   .nav-list a {
     letter-spacing: 10px;
     margin-left: 32px;
@@ -60,13 +48,11 @@
     font-weight: bold;
     color: whitesmoke;
     padding: 10px;
-
   }
 
   .img {
     display: flex;
     margin: auto;
-
   }
 
   article {
@@ -91,7 +77,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 100px;
-
   }
 
   #Principal {
@@ -103,15 +88,9 @@
     align-content: center;
     row-gap: 20px;
     column-gap: 300px;
-
-
-
-
-
   }
 
   #Marmitas {
-
     background-image: linear-gradient(50deg, orange, red);
     padding: 3em;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,7 +101,6 @@
     margin: 10px -85px 5px -30px;
     border: 2px solid black;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1992);
-
 
   }
 
@@ -135,7 +113,6 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px 0;
-
     ;
   }
 
@@ -145,11 +122,7 @@
     margin-right: auto;
     padding: 35px 0;
     align-items: flex-end;
-
-
-
     ;
-
   }
 
   button {
@@ -162,7 +135,6 @@
     font-weight: bold;
     margin-top: 10px;
     margin-inline-start: 100px;
-
   }
 
   button:hover {
@@ -171,6 +143,69 @@
     /* Green */
     color: white;
     font-weight: bold;
+  }
+
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    font-weight: bold;
+
+  }
+
+  .unica {
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+
+  }
+
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+
+  td,
+  th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5 10 5 10;
+
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .config {
+    margin-left: 15px;
+
+  }
+
+  form {
+    border: 1px solid #eee;
+    padding: 0 10px;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, orange, red);
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  input {
+    color: black;
+  }
+
+  h5 {
+    font-size: 15px;
 
   }
 </style>

@@ -22,7 +22,7 @@
             <a class="logo"></a>
             <ul class="nav-list">
 
-              <a href="#">Home</li>
+              <a href="index.php">Home</li>
                 <a href="#">Conheça a Dona Rita</li>
                   <a href="#">Contato</li>
 
@@ -42,7 +42,7 @@
                 <br>
                 <h4>TAMANHO: <?php echo $marmitas[0]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[0]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[1]["id"] ?>"><a href="pag1.php">SAIBA MAIS</a></Button>
 
               </div>
 
@@ -54,7 +54,7 @@
                 <br>
                 <h4>TAMANHO: <?php echo $marmitas[1]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[1]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[2]["id"] ?>"><a href="pag2.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
@@ -65,7 +65,7 @@
                 <br>
                 <h4>TAMANHO: <?php echo $marmitas[2]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[2]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[3]["id"] ?>"><a href="pag3.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
@@ -75,56 +75,56 @@
                 <hr>
                 <h4>TAMANHO: <?php echo $marmitas[3]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[3]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[4]["id"] ?>"><a href="pag4.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
-              <h3><?php echo $marmitas[4]["NOME"]; ?></h3>
+                <h3><?php echo $marmitas[4]["NOME"]; ?></h3>
                 <hr>
                 <img src="Marmita/Marmita-5.jpg" alt="Marmita 5" class="IP2">
                 <hr>
                 <h4>TAMANHO: <?php echo $marmitas[4]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[4]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[5]["id"] ?>"><a href="pag5.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
-              <h3><?php echo $marmitas[5]["NOME"]; ?></h3>
+                <h3><?php echo $marmitas[5]["NOME"]; ?></h3>
                 <hr>
                 <img src="Marmita/Marmita-6.png" alt="Marmita 6" class="IP">
                 <hr>
                 <h4>TAMANHO: <?php echo $marmitas[5]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[5]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[6]["id"] ?>"><a href="pag6.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
-              <h3><?php echo $marmitas[6]["NOME"]; ?></h3>
+                <h3><?php echo $marmitas[6]["NOME"]; ?></h3>
                 <hr>
                 <img src="Marmita/Marmita-7.png" alt="Marmita 7" class="IP">
                 <hr>
                 <h4>TAMANHO: <?php echo $marmitas[6]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[6]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[7]["id"] ?>"><a href="pag7.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
-              <h3><?php echo $marmitas[7]["NOME"]; ?></h3>
+                <h3><?php echo $marmitas[7]["NOME"]; ?></h3>
                 <hr>
                 <img src="Marmita/Marmita-8.jpg" alt="Marmita 8" class="IP2">
                 <hr>
                 <h4>TAMANHO: <?php echo $marmitas[7]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[7]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[8]["id"] ?>"><a href="pag8.php">SAIBA MAIS</a></Button>
               </div>
 
               <div id=Marmitas>
-              <h3><?php echo $marmitas[8]["NOME"]; ?></h3>
+                <h3><?php echo $marmitas[8]["NOME"]; ?></h3>
                 <hr>
                 <img src="Marmita/Marmita-9.png" alt="Marmita 9" class="IP2">
                 <h4>TAMANHO: <?php echo $marmitas[8]["TAMANHO"]; ?></h4>
                 <h4>PREÇO: R$ <?php echo $marmitas[8]["PRECO"]; ?></h4>
-                <Button>SAIBA MAIS!</Button>
+                <Button value="<?= $marmitas[9]["id"] ?>"><a href="pag9.php">SAIBA MAIS</a></Button>
               </div>
             </div>
 
