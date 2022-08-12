@@ -35,9 +35,9 @@
             <div id="Principal">
 
               <div id=Marmitas>
-
-                <img src="Marmita/Marmita-1.jpg" alt="Marmita 1" class="IP">
                 <h3><?php echo $marmitas[0]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-1.jpg" alt="Marmita 1" class="IP">
                 <hr>
                 <br>
                 <h4>TAMANHO: <?php echo $marmitas[0]["TAMANHO"]; ?></h4>
@@ -47,50 +47,83 @@
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-2.jpg" alt="Marmita 2">
-                <p>L E G E N D A</p>
+                <h3><?php echo $marmitas[1]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-2.2.jpg" alt="Marmita 2" class="IP2">
+                <hr>
+                <br>
+                <h4>TAMANHO: <?php echo $marmitas[1]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[1]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-3.jpg" alt="Marmita 3">
-                <p>L E G E N D A</p>
+                <h3><?php echo $marmitas[2]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-3.jpg" alt="Marmita 3" class="IP2">
+                <hr>
+                <br>
+                <h4>TAMANHO: <?php echo $marmitas[2]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[2]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-4.jpg" alt="Marmita 4">
-                <p>L E G E N D A</p>
+                <h3><?php echo $marmitas[3]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-4.jpg" alt="Marmita 4" class="IP">
+                <hr>
+                <h4>TAMANHO: <?php echo $marmitas[3]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[3]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-5.jpg" alt="Marmita 5">
-                <p>L E G E N D A</p>
+              <h3><?php echo $marmitas[4]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-5.jpg" alt="Marmita 5" class="IP2">
+                <hr>
+                <h4>TAMANHO: <?php echo $marmitas[4]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[4]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-6.png" alt="Marmita 6">
-                <p>L E G E N D A</p>
+              <h3><?php echo $marmitas[5]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-6.png" alt="Marmita 6" class="IP">
+                <hr>
+                <h4>TAMANHO: <?php echo $marmitas[5]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[5]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-7.png" alt="Marmita 7">
-                <p>L E G E N D A</p>
+              <h3><?php echo $marmitas[6]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-7.png" alt="Marmita 7" class="IP">
+                <hr>
+                <h4>TAMANHO: <?php echo $marmitas[6]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[6]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-8.jpg" alt="Marmita 8">
-                <p>L E G E N D A</p>
+              <h3><?php echo $marmitas[7]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-8.jpg" alt="Marmita 8" class="IP2">
+                <hr>
+                <h4>TAMANHO: <?php echo $marmitas[7]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[7]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
 
               <div id=Marmitas>
-                <img src="Marmita/Marmita-9.png" alt="Marmita 9">
-                <p>L E G E N D A</p>
+              <h3><?php echo $marmitas[8]["NOME"]; ?></h3>
+                <hr>
+                <img src="Marmita/Marmita-9.png" alt="Marmita 9" class="IP2">
+                <h4>TAMANHO: <?php echo $marmitas[8]["TAMANHO"]; ?></h4>
+                <h4>PREÇO: R$ <?php echo $marmitas[8]["PRECO"]; ?></h4>
                 <Button>SAIBA MAIS!</Button>
               </div>
             </div>

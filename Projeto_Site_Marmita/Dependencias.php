@@ -72,8 +72,8 @@
   article {
     background: linear-gradient(to bottom left, #ffb900 -1%, #ff6600 100%);
     min-width: 300px;
-    max-width: 1350px;
-    padding: 20px;
+    max-width: 1500px;
+    padding: 50px 75px 50px 75px;
     box-shadow: 0px 0px 10px black;
     margin: auto;
     border-bottom-left-radius: 10px;
@@ -91,6 +91,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 100px;
+
   }
 
   #Principal {
@@ -103,23 +104,51 @@
     row-gap: 20px;
     column-gap: 300px;
 
+
+
+
+
   }
 
   #Marmitas {
 
     background-image: linear-gradient(50deg, orange, red);
-    padding: 1em;
+    padding: 3em;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: rgba(0, 0, 0, 0.9);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    color: black;
+    margin: 10px -85px 5px -30px;
+    border: 2px solid black;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1992);
+
+
+  }
+
+  h3 {
+    text-align: center;
   }
 
   .ip {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 5px;
+    padding: 10px 0;
+
+    ;
+  }
+
+  .ip2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 0;
+    align-items: flex-end;
+
+
+
+    ;
 
   }
 
