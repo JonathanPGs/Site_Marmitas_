@@ -191,6 +191,33 @@
 
   }
 
+  #Rodape {
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .tabelaRodPe {
+    margin: auto;
+    color: aliceblue;
+
+  }
+
+  .rita {
+    color: blanchedalmond;
+    font-size: 30px;
+  }
+
+  .imgDonaRIta {
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 10px;
+
+  }
+
   form {
 
     padding: 0 10px;

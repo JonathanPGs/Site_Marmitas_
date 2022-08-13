@@ -23,8 +23,8 @@ require_once "Dados.php";
     <ul class="nav-list">
 
       <a href="index.php">Home</li>
-        <a href="#">Conheça a Dona Rita</li>
-          <a href="#">Contato</li>
+        <a href="DonaRita.php">Conheça a Dona Rita</li>
+       
 
     </ul>
   </nav>
@@ -122,12 +122,26 @@ require_once "Dados.php";
 
   </article>
 
-  <footer>
-    <h2>Quer saber mais?</h2>
-    <p>só entrar em contato atraves do telefone</p>
-    <p> Ligue (18) 999785 - 4500 </p>
-    <p> manda mensagem no whatsapp 18 99785 - 4500 </p>
-  </footer>
+  <footer id="Rodape">
+          <table class="tabelaRodPe">
+   <thead>
+      <tr>
+         <th>Contatos</th>
+         <th>E-mail</th>
+      </tr>
+   </thead>
+   <tbody class="text-white">
+      <tr>
+         <td>(21) 1896-3557</td>
+         <td>RitaDasQuentinhas@gmail.com</td>
+      </tr>
+   </tbody>
+   </table>
+
+   
+   <footer id="Rodape">
+      <p>© Copyright 2022 | Jonathan H. G. Perroni
+   </footer>
 </body>
 <script src="botao.js"> </script>
 
